@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+@keyframes spin-grow {
+  from {
+    transform: rotate(0deg) scale(0);
+  }
+  to {
+    transform: rotate(720deg) scale(1);
+  }
+}
+
+.spin-grow {
+  animation: spin-grow 2s ease-out forwards;
+}
